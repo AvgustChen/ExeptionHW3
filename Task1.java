@@ -29,7 +29,7 @@ public class Task1 {
                 return scanner.nextInt();
             } catch (InputMismatchException ex) {
                 System.out.println("Ошибка: Введено некорректное число. Повторите ввод.");
-                scanner.next(); // Очистка буфера сканера
+                scanner.next();
             }
         }
     }
